@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: rgb(81, 35, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 35, 138, 1) 0%,
+    rgba(101, 44, 212, 1) 38%,
+    rgba(81, 35, 138, 1) 100%
+  );
+  color: #fff;
+  padding: 50px;
+
+  @media (max-width: 992px) {
+    padding: 10px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.space-b {
+  margin-bottom: 20px;
+}

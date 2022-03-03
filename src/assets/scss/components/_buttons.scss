@@ -1,0 +1,26 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+  min-width: 30px;
+  min-height: 30px;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+  &.primary {
+    background-color: $primary;
+    color: #fff;
+  }
+
+  &.danger {
+    background-color: $danger;
+    color: #fff;
+  }
+
+  &.secondary {
+    background-color: $secondary;
+  }
+
+  &.rounded {
+    border-radius: 20px;
+  }
+}

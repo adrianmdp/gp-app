@@ -1,0 +1,14 @@
+.breadcrumb {
+  ul {
+    li {
+      &::before {
+        content: "/";
+        margin-right: 20px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
